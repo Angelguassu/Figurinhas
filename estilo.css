@@ -1,0 +1,92 @@
+/* DOCUMENTO CSS */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: monospace; 
+	background-image: url("https://i.pinimg.com/originals/c0/8e/e7/c08ee7c361a5c9867e0d5fee9350d8f7.jpg");
+	background-size: cover;
+
+
+}
+
+header{
+
+		background-color: #028a02aa;
+		height: 100px;
+		padding-top:1px;
+		color: whitesmoke;
+		text-align: center;
+		background-image: linear-gradient(to right, #2EE863aa, #33F538aa, #63DB37aa, #A3F03Caa, #D7EB44aa);
+		font-family: monospace;
+		 margin-left: 10px;
+		 width: 99%;
+		 border-radius: 10px;
+
+
+	}
+
+main{
+
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+
+
+.box{
+
+	width: 250px;
+	height: 400px;
+	background-color: #64cc79bb;
+	border-radius: 10px;
+	padding: 10px;
+	color: #f4efec;
+	text-align: center;
+	margin: 10px;
+	transition: width 3s height 3s; overflow: hidden;
+}
+.box:hover{
+	box-shadow: 6px 6px 10px #a4a4a4;
+	background-color: #64fd79aa;
+}
+
+.box h2{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.box figure {
+	width: 250px;
+	height: 200px;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+
+}.box p { 
+	font-size: 17px;
+
+}
+
+footer {
+	background-color:  #028a0277;
+	height: 50px;
+	padding-top: 10px;
+	color: whitesmoke;
+	text-align: center;
+	background-image: linear-gradient(to right, #2EE863aa, #33F538aa, #63DB37aa, #A3F03Caa, #D7EB44aa);
+	margin-left: 10px;
+		 width: 99%;
+		 border-radius: 10px;
+
+
+}
+footer p{
+	margin: 0;
+	padding: 0;
+}
